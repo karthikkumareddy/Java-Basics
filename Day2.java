@@ -1,5 +1,5 @@
 import java.util.Scanner;
- /* 
+ 
 public class Day2 {
     public static void main(String[] args) {
         int a = 10;
@@ -49,7 +49,7 @@ public class Day2 {
 }
 
 
-*/
+
 public class Day2 {
     public static void main(String[] args) {
         double celsius = 25.0;
