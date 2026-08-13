@@ -8,7 +8,6 @@ public class sortedArray {
         for (int i = 0; i < num.length; i++){
             num[i] = sc.nextInt();
         }
-        // Ee logic ippudu perfect ga panichesthundhi
 for (int i = 0; i < num.length - 1; i++) { 
     if (num[i] > num[i + 1]) {
        count++;
@@ -16,10 +15,10 @@ for (int i = 0; i < num.length - 1; i++) {
     }
 }
 
-if (count == 0) { // Zero (0) use chesanu
+if (count == 0) { 
    System.out.println("Sorted");
 } else {
-   System.out.println("Not sorted"); // Double quote pettanu
+   System.out.println("Not sorted"); 
 }
 
     }
